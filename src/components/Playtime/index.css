@@ -1,0 +1,68 @@
+.playtime-container{
+    flex-grow: 1;
+    margin-top: 40px;
+}
+
+.playtime-heading{
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 30px;
+    color:#334155;
+    text-align: left;
+    margin: 0;
+}
+
+@media screen and (max-width:767px){
+    .playtime-heading{
+        font-size: 24px;
+        text-align: center;
+    }
+}
+
+.playtime-description-container{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width:767px){
+    .playtime-description-container{
+        flex-direction: column;
+    }
+}
+
+.playtime-description{
+    font-family: "Roboto";
+    font-size: 18px;
+    margin-top: 10px;
+    width: 60%;
+    max-width: 400px;
+    text-align: left;
+}
+
+@media screen and (max-width:767px){
+    .playtime-description{
+        font-size: 16px;
+        width: 95%;
+        text-align: center;
+    }
+}
+
+.playtime-games-image{
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+    order: 1;
+}
+
+@media screen and (max-width:767px){
+    .playtime-games-image{
+        width: 120px;
+        height: 120px;
+        margin-top: 15px;
+        margin-right: 15px;
+        margin-left: 0px;
+        margin-right: 0px;
+        order: -1;
+    }
+}

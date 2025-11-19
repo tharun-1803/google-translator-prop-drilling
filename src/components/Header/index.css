@@ -1,0 +1,35 @@
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    width: 90%;
+    max-width: 1110px;
+    margin: auto;
+}
+
+.website-logo{
+    width: 140px;
+}
+
+@media screen and (max-width:767px){
+    .website-logo{
+        width: 110px;
+    }
+}
+
+.language-dropdown{
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 14px;
+    color: #475569;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border:1px solid #94a3b8;
+    outline: none;
+    cursor: pointer;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 4px;
+}
